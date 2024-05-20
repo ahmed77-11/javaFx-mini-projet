@@ -156,7 +156,8 @@ public class ListeSmartphoneController implements Initializable {
             listM.addAll(list1);
             tableS.setItems(listM);
 
-            ShowError.showErrorMessage("No smartphones found for the given brand.");
+            ShowError.showErrorMessage(
+                    "No smartphones found for the given brand.");
         }
 
     }
